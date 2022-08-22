@@ -1,0 +1,17 @@
+{
+  "name": "property-network",
+  "version": "1.0.0",
+  "description": "Property Registration Network",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "fabric-chaincode-node start --peer.address peer0.registrar.property-registration-network.com:7053 --chaincode-id-name regnet:1.15",
+    "start": "fabric-chaincode-node start",
+  },
+  "author": "C Siva Prakash Reddy",
+  "dependencies": {
+    "fabric-contract-api": "~1.4.2",
+    "fabric-shim": "~1.4.2",
+    "webpack-dev-server": "^3.10.3"
+  }
+  }
+
